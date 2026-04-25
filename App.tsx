@@ -200,7 +200,12 @@ const styles = StyleSheet.create({
     marginBottom: 40,
     color: '#fffaf4',
     fontSize: 88,
+    lineHeight: 96,
     fontWeight: '800',
+    textAlign: 'center',
+    includeFontPadding: false,
+    textAlignVertical: 'center',
+    fontVariant: ['tabular-nums'],
   },
   ghostLayer: {
     position: 'absolute',
